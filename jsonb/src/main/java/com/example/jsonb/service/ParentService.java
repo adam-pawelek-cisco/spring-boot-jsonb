@@ -12,10 +12,7 @@ import com.example.jsonb.data.ParentRepo;
 @Service
 @RequiredArgsConstructor
 public class ParentService {
-
     private  final ParentRepo parentRepo;
-
-
 
     public void addParent(Parent parent){
 		/*

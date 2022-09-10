@@ -43,9 +43,4 @@ public class Parent implements Serializable {
     @Column(columnDefinition = "jsonb")
     private Bio bio;
 
-    public Parent(String name, List children, Bio bio) {
-        this.name = name;
-        this.children = children;
-        this.bio = bio;
-    }
 }
