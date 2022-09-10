@@ -3,11 +3,6 @@ package com.example.jsonb.service;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-
-import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 import com.example.jsonb.data.Parent;
