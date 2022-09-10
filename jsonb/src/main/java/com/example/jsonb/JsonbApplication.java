@@ -12,10 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.jsonb.data.Bio;
-import com.example.jsonb.data.Child;
-import com.example.jsonb.data.Parent;
-import com.example.jsonb.data.ParentRepo;
+
 
 @SpringBootApplication
 @RestController

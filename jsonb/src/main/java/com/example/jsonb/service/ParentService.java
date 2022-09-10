@@ -13,6 +13,7 @@ import lombok.RequiredArgsConstructor;
 import com.example.jsonb.data.Parent;
 import com.example.jsonb.data.ParentRepo;
 
+
 @Service
 @RequiredArgsConstructor
 public class ParentService {
