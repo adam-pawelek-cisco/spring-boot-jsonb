@@ -1,6 +1,6 @@
 # spring-boot-jsonb
 
-##Dependency you need to add
+## Dependency you need to add
 ```
 <dependency>
 		<groupId>com.vladmihalcea</groupId>
