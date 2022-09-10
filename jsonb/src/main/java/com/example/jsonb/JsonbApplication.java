@@ -21,32 +21,13 @@ import com.example.jsonb.data.ParentRepo;
 @RestController
 public class JsonbApplication {
 
-	@Autowired
-	ParentRepo  parentRepo;
+
 	public static void main(String[] args) {
 		SpringApplication.run(JsonbApplication.class, args);
-		System.out.println(org.hibernate.Version.getVersionString());
-
 
 	}
 
-	@PostMapping()
-	public void hello(@RequestBody Parent parent){
-		/*
-		parentRepo.save(new Parent(
-						"parent1",
-						asList(new Child("child1"), new Child("child2")),
-						new Bio("bio1")
-				)
-		);
-		 */
-		parentRepo.save(parent);
-	}
 
-	@GetMapping()
-	public List<Parent> getParent(){
-		return parentRepo.findAll();
-	}
 
 
 }
